@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f0a3a23-09a9-4654-b151-8ca887417c41" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/设计模式之美/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/设计模式之美/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/设计模式之美/创建型/build/build.php" beforeDir="false" afterPath="$PROJECT_DIR$/设计模式之美/创建型/build/build.php" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/设计模式之美/创建型/Prototype/Prototype.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式之美/结构型/Proxy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> 2732de5a97ef9c5893f2a0f106e517d462ea3933
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,8 +64,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/设计模式之美/创建型/build/build.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="156">
               <caret line="163" column="24" selection-start-line="163" selection-start-column="24" selection-end-line="163" selection-end-column="24" />
+=======
+            <state relative-caret-position="108">
+              <caret line="115" column="1" lean-forward="true" selection-start-line="115" selection-start-column="1" selection-end-line="115" selection-end-column="1" />
+>>>>>>> 2732de5a97ef9c5893f2a0f106e517d462ea3933
               <folding>
                 <element signature="e#7#33#0#PHP" expanded="true" />
               </folding>
@@ -77,17 +88,39 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/设计模式之美/创建型/Factory.java">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/设计模式之美/创建型/Prototype/Prototype.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="950">
+              <caret line="104" selection-start-line="104" selection-end-line="104" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/设计模式之美/结构型/Proxy.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="512">
+              <caret line="59" lean-forward="true" selection-start-line="2" selection-end-line="59" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/设计模式之美/创建型/RuleConfigParserFactory.java">
           <provider selected="true" editor-type-id="text-editor" />
+=======
+        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/date/date.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="797" column="9" selection-start-line="797" selection-start-column="9" selection-end-line="797" selection-end-column="9" />
+            </state>
+          </provider>
+>>>>>>> 2732de5a97ef9c5893f2a0f106e517d462ea3933
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/设计模式之美/创建型/Singleton/qiu_log.txt">
+        <entry file="file://$PROJECT_DIR$/设计模式之美/创建型/Factory.java">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -96,6 +129,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>$configFormat</find>
+      <find>foreach</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -113,15 +147,19 @@
         <option value="$PROJECT_DIR$/设计模式之美/创建型/Factory/SimpleFactory.php" />
         <option value="$PROJECT_DIR$/设计模式之美/创建型/Factory/DependencyInjection.php" />
         <option value="$PROJECT_DIR$/设计模式之美/创建型/build/build.php" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/设计模式之美/.gitignore" />
+=======
+        <option value="$PROJECT_DIR$/设计模式之美/创建型/Prototype/Prototype.php" />
+        <option value="$PROJECT_DIR$/设计模式之美/结构型/Proxy.php" />
+>>>>>>> 2732de5a97ef9c5893f2a0f106e517d462ea3933
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="54" />
-    <option name="y" value="-8" />
-    <option name="width" value="1874" />
-    <option name="height" value="1096" />
+    <option name="x" value="55" />
+    <option name="width" value="1872" />
+    <option name="height" value="1087" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -141,6 +179,15 @@
               <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="设计模式之美" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
+=======
+            <path>
+              <item name="CodeDesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodeDesign" type="462c0819:PsiDirectoryNode" />
+              <item name="设计模式之美" type="462c0819:PsiDirectoryNode" />
+              <item name="结构型" type="462c0819:PsiDirectoryNode" />
+            </path>
+>>>>>>> 2732de5a97ef9c5893f2a0f106e517d462ea3933
           </expand>
           <select />
         </subPane>
@@ -200,10 +247,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1874" height="1096" extended-state="0" />
-    <editor active="true" />
+    <frame x="55" y="0" width="1872" height="1087" extended-state="1" />
     <layout>
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1565601" />
+=======
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25275937" />
+>>>>>>> 2732de5a97ef9c5893f2a0f106e517d462ea3933
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -216,7 +266,11 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49944875" visible="true" weight="0.47435898" />
+=======
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49944875" visible="true" weight="0.25350595" />
+>>>>>>> 2732de5a97ef9c5893f2a0f106e517d462ea3933
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5005513" side_tool="true" weight="0.39102563" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -281,18 +335,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/设计模式之美/创建型/build/build.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="156">
           <caret line="163" column="24" selection-start-line="163" selection-start-column="24" selection-end-line="163" selection-end-column="24" />
+=======
+        <state relative-caret-position="108">
+          <caret line="115" column="1" lean-forward="true" selection-start-line="115" selection-start-column="1" selection-end-line="115" selection-end-column="1" />
+>>>>>>> 2732de5a97ef9c5893f2a0f106e517d462ea3933
           <folding>
             <element signature="e#7#33#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/设计模式之美/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+=======
+    <entry file="file://$PROJECT_DIR$/设计模式之美/创建型/Prototype/Prototype.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/date/date.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="797" column="9" selection-start-line="797" selection-start-column="9" selection-end-line="797" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/设计模式之美/结构型/Proxy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="59" lean-forward="true" selection-start-line="2" selection-end-line="59" />
+>>>>>>> 2732de5a97ef9c5893f2a0f106e517d462ea3933
         </state>
       </provider>
     </entry>
