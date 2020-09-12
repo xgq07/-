@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f0a3a23-09a9-4654-b151-8ca887417c41" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/设计模式之美/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/设计模式之美/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/设计模式之美/创建型/build/build.php" beforeDir="false" afterPath="$PROJECT_DIR$/设计模式之美/创建型/build/build.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,7 +17,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/设计模式之美/创建型/Singleton/IdGenerator.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-274">
+            <state relative-caret-position="81">
               <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
             </state>
           </provider>
@@ -23,15 +25,13 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/设计模式之美/创建型/Singleton/Controller.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-627" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/设计模式之美/创建型/Singleton/Logger.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="810">
               <caret line="30" column="41" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="41" />
             </state>
           </provider>
@@ -40,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/设计模式之美/创建型/Factory/SimpleFactory.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
+            <state relative-caret-position="3186">
+              <caret line="118" selection-start-line="118" selection-end-line="118" />
             </state>
           </provider>
         </entry>
@@ -49,20 +49,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/设计模式之美/创建型/Factory/DependencyInjection.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-47">
-              <caret line="139" column="42" lean-forward="true" selection-start-line="139" selection-start-column="42" selection-end-line="139" selection-end-column="42" />
+            <state relative-caret-position="3753">
+              <caret line="139" column="42" selection-start-line="139" selection-start-column="42" selection-end-line="139" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/设计模式之美/创建型/build/build.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="163" column="24" selection-start-line="163" selection-start-column="24" selection-end-line="163" selection-end-column="24" />
+              <folding>
+                <element signature="e#7#33#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/设计模式之美/创建型/build/build.php">
+        <entry file="file://$PROJECT_DIR$/设计模式之美/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="109" column="42" lean-forward="true" selection-start-line="109" selection-start-column="42" selection-end-line="109" selection-end-column="42" />
-              <folding>
-                <element signature="e#7#33#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="288">
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -74,9 +83,7 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/设计模式之美/创建型/RuleConfigParserFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-326" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -106,6 +113,7 @@
         <option value="$PROJECT_DIR$/设计模式之美/创建型/Factory/SimpleFactory.php" />
         <option value="$PROJECT_DIR$/设计模式之美/创建型/Factory/DependencyInjection.php" />
         <option value="$PROJECT_DIR$/设计模式之美/创建型/build/build.php" />
+        <option value="$PROJECT_DIR$/设计模式之美/.gitignore" />
       </list>
     </option>
   </component>
@@ -120,29 +128,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="CodeDesign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeDesign" type="462c0819:PsiDirectoryNode" />
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CodeDesign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeDesign" type="462c0819:PsiDirectoryNode" />
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="设计模式之美" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeDesign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="设计模式之美" type="462c0819:PsiDirectoryNode" />
-              <item name="创建型" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -170,6 +172,9 @@
       </list>
     </option>
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="8f0a3a23-09a9-4654-b151-8ca887417c41" name="Default Changelist" comment="" />
@@ -177,8 +182,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599458602949</updated>
+      <workItem from="1599745080852" duration="2040000" />
+      <workItem from="1599893577390" duration="117000" />
     </task>
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2157000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -193,7 +203,7 @@
     <frame x="54" y="-8" width="1874" height="1096" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25248072" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1565601" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -206,7 +216,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49944875" visible="true" weight="0.12713675" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49944875" visible="true" weight="0.47435898" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5005513" side_tool="true" weight="0.39102563" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -222,50 +232,6 @@
     <entry file="file://$PROJECT_DIR$/设计模工之美/创建型/Singleton/IdGenerator.php" />
     <entry file="file://$PROJECT_DIR$/设计模工之美/创建型/Singleton/Controller.php" />
     <entry file="file://$PROJECT_DIR$/设计模工之美/创建型/Singleton/Logger.php" />
-    <entry file="file://$PROJECT_DIR$/设计模式之美/创建型/Singleton/qiu_log.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/设计模式之美/创建型/RuleConfigParserFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-326" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/设计模式之美/创建型/Singleton/IdGenerator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-274">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/设计模式之美/创建型/Singleton/Logger.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="30" column="41" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/设计模式之美/创建型/Singleton/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-627" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/设计模式之美/创建型/Factory.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/设计模式之美/创建型/Factory/SimpleFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/设计模式之美/创建型/Factory/DependencyInjection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-47">
-          <caret line="139" column="42" lean-forward="true" selection-start-line="139" selection-start-column="42" selection-end-line="139" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Reflection/Reflection.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
@@ -273,13 +239,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/设计模式之美/创建型/Singleton/IdGenerator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/设计模式之美/创建型/Singleton/Controller.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/设计模式之美/创建型/Singleton/Logger.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="30" column="41" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/设计模式之美/创建型/Factory/SimpleFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3186">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/设计模式之美/创建型/Factory/DependencyInjection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3753">
+          <caret line="139" column="42" selection-start-line="139" selection-start-column="42" selection-end-line="139" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/设计模式之美/创建型/Factory.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/设计模式之美/创建型/RuleConfigParserFactory.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/设计模式之美/创建型/Singleton/qiu_log.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/设计模式之美/创建型/build/build.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="109" column="42" lean-forward="true" selection-start-line="109" selection-start-column="42" selection-end-line="109" selection-end-column="42" />
+        <state relative-caret-position="156">
+          <caret line="163" column="24" selection-start-line="163" selection-start-column="24" selection-end-line="163" selection-end-column="24" />
           <folding>
             <element signature="e#7#33#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/设计模式之美/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
         </state>
       </provider>
     </entry>

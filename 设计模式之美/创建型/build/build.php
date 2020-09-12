@@ -97,6 +97,7 @@
 //    }
 //}
 
+
 class ResourcePoolConfig
 {
     private $name;
@@ -104,15 +105,16 @@ class ResourcePoolConfig
     private $maxIdle;
     private $minIdle;
 
-
     public function __construct(ResourcePoolConfigBuilder $poolConfigBuilder)
     {
-        $this->name = $poolConfigBuilder->name;
+        $this->name = $poolConfigBuilder->getName();
+        $this->maxTotal = $poolConfigBuilder->getMaxTotal();
+        $this->maxIdle = $poolConfigBuilder->getMaxIdle();
     }
-
 }
 
- class  ResourcePoolConfigBuilder
+
+class  ResourcePoolConfigBuilder
 {
 
     private const DEFAULT_MAX_TOTAL = 8;
@@ -130,9 +132,73 @@ class ResourcePoolConfig
 
     }
 
+    public function getName()
+    {
+        return $this->name;
+    }
 
+    public function setName($name)
+    {
+        if (empty($name)) {
+            throw new InvalidArgumentException('name should not empty!');
+        }
+        $this->name = $name;
+    }
+
+    public function getMaxTotal()
+    {
+        return $this->maxTotal;
+    }
+
+    public function setMaxTotal($maxTotal)
+    {
+        if (is_int($maxTotal) === false || $maxTotal <= 0) {
+            throw new InvalidArgumentException('最大总资源必须为数值且数量必须大于0');
+        } else {
+            $this->maxTotal = $maxTotal;
+        }
+    }
+
+    public function getMaxIdle()
+    {
+        return $this->maxTotal;
+    }
+
+    public function setMaxIdle($maxIdle)
+    {
+        if (is_int($maxIdle) === false || $maxIdle < 0) {
+            throw new InvalidArgumentException('最大空闲资源必须必须大于等于0');
+        } else {
+            $this->maxIdle = $maxIdle;
+        }
+    }
+
+    public function setMinIdle($minIdle)
+    {
+        if (is_int($minIdle) === false || $minIdle < 0) {
+            throw new InvalidArgumentException('最小空闲资源必须必须大于等于0');
+        } else {
+            $this->minIdle = $minIdle;
+        }
+    }
+
+    public function build()
+    {
+        // 校验逻辑放到这里来做，包括必填项校验、依赖关系校验、约束条件校验等
+        if (empty($this->name)) {
+            throw new InvalidArgumentException('name should not empty!');
+        }
+
+        if ($this->maxIdle > $this->maxTotal) {
+            throw new InvalidArgumentException('maxIdle must < maxTotal');
+        }
+        return new ResourcePoolConfig($this);
+    }
 }
 
-$r = new ResourcePoolConfig('name');
-$r->setMaxIdle(0);
+$r = new  ResourcePoolConfigBuilder();
+$r->setName('qiu');
+$r->setMaxIdle(10);
+$resource = $r->build();
+var_dump($resource);
 
