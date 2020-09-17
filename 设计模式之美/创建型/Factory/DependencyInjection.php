@@ -155,7 +155,9 @@ class Container implements ArrayAccess
 
 $container = Container::getInstance();
 
-$profile   = $container->singleton(Profile::class);
+$p = 'Profile';
+//$profile   = $container->singleton(Profile::class);
+$profile   = $container->singleton($p);
 $profile2  = $container->singleton(Profile::class);
 //只打印
 //init Setting
